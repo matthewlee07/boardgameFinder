@@ -1,11 +1,2 @@
 language: node_js
 node_js: node
-services:
-- mongodb
-deploy:
-  provider: heroku
-  api_key:
-    secure: BSrwu6uIFrYXPKPmipQt6c2fYtdJEeFqiUqOOD9bEIDHXpqXuNX11CA0GB0nduIOfvMHERSEZa4JSZYk/bfOBFNjjLRcM4DAUdhGckRmPx1dVjuPZyE5AFQ2fkuDMqHfZcYIRz+PBXye/h3RzZ5zyJOOoEaRP9Nm5BpNecCpOGluHwEB0eLT0YUCkwJmmyEUyJeUucP/zWmRS+PJPy45EFHjKrypt5DSwDY+egh5B80mAngZNDbjAzCIsotY+jHMdrQ2Tivz0Kf88SsWg5ogJPv1cOk+BDVvq7lW2cROF8Xa9FS0RR4b4yiGS44VGdkGYy5xyyZd1L4IXwFAjHWRSwoHKOQCYkApkO10x9xOMFYkbfp9wkFir63uw5zhtZlzuVg8vWSjdNDgTRgKl77HiaRyypDMgNFMs2WW5cK1ciAfb5xKEi3I/FWv7jtDDU3TBoEZRVaSdMOOnlSfHFaCsi53Oe0w+J2fCDM3WqxSMFH6Y3Vkeee3SyryzgoLzcDeM2TSPVM/phGfgcknq+MFKFP1QiKdMOMW6H5NT69Bg6cdOvhGtjkDPr0RTtwbHWB9WNH8/k0UOgDmbnYscYz0rsLpgJ5a1j1x/h+S/H0Pdv9QeBifqRpwQghD3MuzI+oXDDYBJNQUWuvDXhFkVkTsg/tr3TsfzMfhSW8N2KIePkk=
-  app: calm-ridge-47266
-  on:
-    repo: giri68/node-jwt-auth
